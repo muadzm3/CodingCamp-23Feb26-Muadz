@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Tambal Ban Online</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    
+<nav class="navbar">
+
+    <div class="nav-right">
+        <img src="tambalban.png" alt="Profile" class="profile-img">
+    </div>
+    <div class="nav-left">
+        <a href="#home">Home</a>
+        <a href="#profile">Lokasi Kami</a>
+        <a href="#portfolio">Pelayanan</a>
+        <a href="#message">Pesan Sekarang</a>
+    </div>
+
+</nav>
+
+<section class="portfolio" id="portfolio">
+    <h2>Pelayanan Kami</h2>
+    <div class="portfolio-box">
+    <div class="card">
+        <img src="asset/1.png" alt="Project 1" style="width: 100%;">
+        <p>Project 1</p>
+    </div>
+    <div class="card">
+        <img src="asset/2.png" alt="Project 2" style="width: 100%;">
+        <p>Project 2</p>
+    </div>
+    <div class="card">
+        <img src="asset/3.png" alt="Project 3" style="width: 100%;">
+        <p>Project 3</p>
+    </div>
+</div>
+</section>
+
+    
+    <header class="hero" id="home">
+        <h2>Hi Muadz, Selamat datang di Tambal Ban Online</h2>
+        <p> Layanan tambal ban online adalah jasa panggilan praktis yang memungkinkan 
+            pengendara memesan bantuan perbaikan ban bocor cukup melalui situs web atau ponsel. 
+            Alih-alih harus mendorong kendaraan mencari bengkel, pelanggan hanya perlu mengirimkan
+             lokasi mereka agar mekanik datang membawa peralatan lengkap langsung
+              ke tempat kejadian. Sistem ini mempermudah proses pemesanan dan pembayaran 
+              secara transparan, sehingga sangat membantu bagi siapa pun yang mengalami kendala 
+              ban di lokasi yang jauh dari pemukiman atau pada jam-jam darurat.</p>
+    </header>
+
+    
+    <section class="lokasikami" id="profile">
+        <h2>Lokasi Kami</h2>
+
+        <div class="lokasikami-1">
+            <div class="hq-item">
+                <div class="circle">
+            <img src="asset/jakarta.jpg" alt="Project 1" style="width: 100%;"></div>
+                <p>Jakarta</p>
+            </div>
+
+            <div class="hq-item">
+                <div class="circle">
+            <img src="asset/malang.jpg" alt="Project 1" style="width: 100%;"></div>
+                <p>Malang</p>
+            </div>
+
+            <div class="hq-item">
+                <div class="circle">
+                <img src="asset/Blitar.jpg" alt="Project 1" style="width: 100%;"></div>
+                <p>Blitar</p>
+            </div>
+        </div>
+    </section>
+
+    
+    <section class="message" id="message">
+                 <h2>Pesan Sekarang</h2>
+
+        <div class="message-container">
+            <form id="messageForm">
+                <label>Nama:</label>
+                <input type="text" id="nama" required>
+
+                <label>Tanggal Lahir:</label>
+                <input type="date" id="tanggal" required>
+
+                <label>Jenis Kelamin:</label>
+                <div class="radio-group">
+                    <input type="radio" name="gender" value="Laki-Laki" required> Laki-Laki
+                    <input type="radio" name="gender" value="Perempuan"> Perempuan
+                </div>
+
+                <label>Pesan:</label>
+                <textarea id="pesan" rows="4" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+
+            
+            <div class="output-box">
+                <h3>Hasil Input:</h3>
+                <p id="result"></p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>Created by @muadz_m3</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
